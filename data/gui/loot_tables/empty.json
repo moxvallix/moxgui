@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "gui:config/empty"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_name",
+          "name": ""
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{gui:true}"
+        }
+      ]
+    }
+  ]
+}

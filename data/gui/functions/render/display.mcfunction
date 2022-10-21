@@ -1,0 +1,1 @@
+function gui:render/display/enderchest/item

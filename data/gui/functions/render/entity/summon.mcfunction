@@ -1,0 +1,2 @@
+# summon temp armor stand with uuid of: 1674b3a8-0135-a32e-02a4-06fb01241978
+execute at @s run summon armor_stand ~ ~ ~ {UUID:[I;376746920,20292398,44304123,19143032],Invulnerable:1b,Marker:1b,Invisible:1b}
