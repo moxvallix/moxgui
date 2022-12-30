@@ -1,25 +1,38 @@
 # Moxvallix's GUI Lib
 ## Making Datapack GUIs easier
 
-**Moxvallix's GUI Lib relies on [Taglib](https://github.com/HeDeAnTheonlyone/Taglib)**  
-**Taglib comes packaged in the Releases, but is not kept in the source**
+**Moxvallix's GUI Lib relies on [Taglib](https://github.com/HeDeAnTheonlyone/Taglib), and [Moxlib](https://github.com/moxvallix/moxlib)**  
 
 This datapack automates much of hard parts of GUI development.
 It is data driven, meaning it renders the GUI based on a template stored in data storage.
 
-Currently, it only supports an Enderchest UI. However, plans for other UI types are in the works.
+Currently, the library works in two modes; "enderchest", and "barrel". In "enderchest" mode, the GUI is drawn
+to the player's Enderchest. This overrides whatever contents were previously in the enderchest, so be warned!
+Enderchest mode is the easiest to use, and is best for Adventure maps, where the main Enderchest functionality
+is not needed.
+
+The other, "barrel", mode, draws the GUI to a container at ~ ~ ~. While this works with any container block,
+it is advised that a Barrel is used, as that allows for it to detect when the container is opened, allowing for it
+to then easily prevent other players using the GUI whilst the first player is.
 
 One benefit of this GUI system, being data driven, means that making generators for GUIs should be fairly easy.
 I however have not created one yet.
 
 ### Getting Started
 #### Overview
-There are two main functions: `gui:api/render` and `gui:api/select`.
-Render will draw the gui, based on the page id, and select will run any clicks in the GUI.
+Depending on whether the GUI should be drawn to a container, or the Enderchest, the API is namespaced under "barrel",
+or "enderchest" respectively. The following guide will use `<type>` as a placeholder for this. Swap it out for which ever
+method.
 
-All other functions are to be considered private, and running them yourself is not recommended.
+Note: type "barrel" should be executed at the same position as a container block. If you have multiple GUIs in your packs,
+you may want to have entities positioned at the same location as the block, executing at them.
 
-The select function should be run as the player, on a loop, whenever the GUI should be active.
+There are two main functions: `gui:api/<type>/render` and `gui:api/<type>/watch`.
+Render will draw the gui, based on the page id, and watch will run any clicks in the GUI.
+
+All functions outside of the api/ subfolder are to be considered private, and are not supported to be ran.
+
+The watch function should be run as the player, on a loop, whenever the GUI should be active.
 If you wanted the GUI always active, you could set it to run as @a from your tick function.
 
 #### Making an Index
@@ -59,8 +72,8 @@ Slot 14:
   - has page:3s, would render `pack:gui/shop` when clicked
   - has an item tag, setting the item to `chest`
 
-If you want to try it out, make sure to set your `gui.page` score to 1, then run either `gui:api/render`, or
-have `gui:api/select` on loop as described above.
+If you want to try it out, make sure to set your `gui.page` score to 1, then run either `gui:api/<type>/render`, or
+have `gui:api/<type>/watch` on loop as described above.
 
 #### Manipulate Slots as they Render
 Sometimes, you will want to manipulate slots as they render, such that you can have dynamic menus.

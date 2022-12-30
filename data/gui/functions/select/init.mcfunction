@@ -1,10 +1,12 @@
-data modify storage gui:private lock set value true
+function gui:common/setup
 
-function #gui:cleanup
+function #gui:select/init
 function #gui:index
+
+execute unless data storage gui:page template run function gui:warnings/404
 
 function gui:select/get
 execute if score @s gui.selection matches 0.. run function gui:select/iterate
 function gui:render/init
 
-data modify storage gui:private lock set value false
+function gui:common/cleanup

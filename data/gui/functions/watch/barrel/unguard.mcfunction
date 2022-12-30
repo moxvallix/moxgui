@@ -1,0 +1,1 @@
+tp @e[type=slime,limit=1,sort=nearest,distance=..1] ~ ~-150 ~

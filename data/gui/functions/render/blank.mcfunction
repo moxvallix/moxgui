@@ -1,1 +1,0 @@
-function gui:render/display/enderchest/blank

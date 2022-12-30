@@ -1,24 +1,4 @@
-[
-  {
-    "function": "minecraft:set_name",
-    "name": "",
-    "conditions": [
-      {
-        "condition": "minecraft:value_check",
-        "value": {
-          "type": "minecraft:score",
-          "target": {
-            "type": "minecraft:fixed",
-            "name": "$named"
-          },
-          "score": "gui.slot"
-        },
-        "range": 0
-      }
-    ]
-  },
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{gui:true}"
-  }
-]
+{
+  "function": "minecraft:set_nbt",
+  "tag": "{gui:true}"
+}

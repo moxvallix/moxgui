@@ -1,0 +1,1 @@
+execute unless entity @e[type=slime,limit=1,sort=nearest,distance=..1] run summon slime ~ ~ ~ {Silent:1b,Invulnerable:1b,DeathLootTable:"minecraft:empty",NoAI:1b,Size:1,Tags:["gui.guard"],ActiveEffects:[{Id:14,Amplifier:0b,Duration:1999999980,ShowParticles:0b}]}
