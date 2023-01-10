@@ -1,0 +1,1 @@
+execute if score @s gui.page matches 100 run function gui:builtin/pages/input/numeric

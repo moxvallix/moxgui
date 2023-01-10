@@ -1,0 +1,1 @@
+execute if data storage gui:page {flags:{module:"gui:input"}} run function gui:builtin/select/input

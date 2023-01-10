@@ -1,5 +1,7 @@
 {
     "values": [
-        "gui:select/builtin/page"
+        "gui:select/builtin/page",
+        "gui:select/builtin/flags",
+        "gui:builtin/select/slot"
     ]
 }

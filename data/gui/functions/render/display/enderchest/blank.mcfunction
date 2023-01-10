@@ -1,27 +1,27 @@
-loot replace entity @s enderchest.0 loot gui:empty
-loot replace entity @s enderchest.1 loot gui:empty
-loot replace entity @s enderchest.2 loot gui:empty
-loot replace entity @s enderchest.3 loot gui:empty
-loot replace entity @s enderchest.4 loot gui:empty
-loot replace entity @s enderchest.5 loot gui:empty
-loot replace entity @s enderchest.6 loot gui:empty
-loot replace entity @s enderchest.7 loot gui:empty
-loot replace entity @s enderchest.8 loot gui:empty
-loot replace entity @s enderchest.9 loot gui:empty
-loot replace entity @s enderchest.10 loot gui:empty
-loot replace entity @s enderchest.11 loot gui:empty
-loot replace entity @s enderchest.12 loot gui:empty
-loot replace entity @s enderchest.13 loot gui:empty
-loot replace entity @s enderchest.14 loot gui:empty
-loot replace entity @s enderchest.15 loot gui:empty
-loot replace entity @s enderchest.16 loot gui:empty
-loot replace entity @s enderchest.17 loot gui:empty
-loot replace entity @s enderchest.18 loot gui:empty
-loot replace entity @s enderchest.19 loot gui:empty
-loot replace entity @s enderchest.20 loot gui:empty
-loot replace entity @s enderchest.21 loot gui:empty
-loot replace entity @s enderchest.22 loot gui:empty
-loot replace entity @s enderchest.23 loot gui:empty
-loot replace entity @s enderchest.24 loot gui:empty
-loot replace entity @s enderchest.25 loot gui:empty
-loot replace entity @s enderchest.26 loot gui:empty
+execute unless data storage gui:page {template:[{slot:0b,empty:true}]} run loot replace entity @s enderchest.0 loot gui:empty
+execute unless data storage gui:page {template:[{slot:1b,empty:true}]} run loot replace entity @s enderchest.1 loot gui:empty
+execute unless data storage gui:page {template:[{slot:2b,empty:true}]} run loot replace entity @s enderchest.2 loot gui:empty
+execute unless data storage gui:page {template:[{slot:3b,empty:true}]} run loot replace entity @s enderchest.3 loot gui:empty
+execute unless data storage gui:page {template:[{slot:4b,empty:true}]} run loot replace entity @s enderchest.4 loot gui:empty
+execute unless data storage gui:page {template:[{slot:5b,empty:true}]} run loot replace entity @s enderchest.5 loot gui:empty
+execute unless data storage gui:page {template:[{slot:6b,empty:true}]} run loot replace entity @s enderchest.6 loot gui:empty
+execute unless data storage gui:page {template:[{slot:7b,empty:true}]} run loot replace entity @s enderchest.7 loot gui:empty
+execute unless data storage gui:page {template:[{slot:8b,empty:true}]} run loot replace entity @s enderchest.8 loot gui:empty
+execute unless data storage gui:page {template:[{slot:9b,empty:true}]} run loot replace entity @s enderchest.9 loot gui:empty
+execute unless data storage gui:page {template:[{slot:10b,empty:true}]} run loot replace entity @s enderchest.10 loot gui:empty
+execute unless data storage gui:page {template:[{slot:11b,empty:true}]} run loot replace entity @s enderchest.11 loot gui:empty
+execute unless data storage gui:page {template:[{slot:12b,empty:true}]} run loot replace entity @s enderchest.12 loot gui:empty
+execute unless data storage gui:page {template:[{slot:13b,empty:true}]} run loot replace entity @s enderchest.13 loot gui:empty
+execute unless data storage gui:page {template:[{slot:14b,empty:true}]} run loot replace entity @s enderchest.14 loot gui:empty
+execute unless data storage gui:page {template:[{slot:15b,empty:true}]} run loot replace entity @s enderchest.15 loot gui:empty
+execute unless data storage gui:page {template:[{slot:16b,empty:true}]} run loot replace entity @s enderchest.16 loot gui:empty
+execute unless data storage gui:page {template:[{slot:17b,empty:true}]} run loot replace entity @s enderchest.17 loot gui:empty
+execute unless data storage gui:page {template:[{slot:18b,empty:true}]} run loot replace entity @s enderchest.18 loot gui:empty
+execute unless data storage gui:page {template:[{slot:19b,empty:true}]} run loot replace entity @s enderchest.19 loot gui:empty
+execute unless data storage gui:page {template:[{slot:20b,empty:true}]} run loot replace entity @s enderchest.20 loot gui:empty
+execute unless data storage gui:page {template:[{slot:21b,empty:true}]} run loot replace entity @s enderchest.21 loot gui:empty
+execute unless data storage gui:page {template:[{slot:22b,empty:true}]} run loot replace entity @s enderchest.22 loot gui:empty
+execute unless data storage gui:page {template:[{slot:23b,empty:true}]} run loot replace entity @s enderchest.23 loot gui:empty
+execute unless data storage gui:page {template:[{slot:24b,empty:true}]} run loot replace entity @s enderchest.24 loot gui:empty
+execute unless data storage gui:page {template:[{slot:25b,empty:true}]} run loot replace entity @s enderchest.25 loot gui:empty
+execute unless data storage gui:page {template:[{slot:26b,empty:true}]} run loot replace entity @s enderchest.26 loot gui:empty

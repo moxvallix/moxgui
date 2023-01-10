@@ -1,0 +1,2 @@
+execute if data storage gui:slot current.state run data modify storage gui:page state merge from storage gui:slot current.state
+execute if data storage gui:slot {current:{state:false}} run data remove storage gui:page state

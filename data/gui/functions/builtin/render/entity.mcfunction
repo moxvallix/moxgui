@@ -1,0 +1,1 @@
+execute if data storage gui:slot current.item.modifier run function gui:builtin/render/modifiers

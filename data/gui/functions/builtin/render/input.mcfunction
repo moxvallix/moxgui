@@ -1,0 +1,1 @@
+execute if data storage gui:slot {current:{action:"output/number"}} run function gui:builtin/actions/output/number

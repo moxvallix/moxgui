@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "text": "Accept: ",
+    "italic": false,
+    "extra": [
+      {
+        "nbt": "current",
+        "storage": "gui:action"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+execute if data storage gui:slot current.flags run data modify storage gui:page flags set from storage gui:slot current.flags

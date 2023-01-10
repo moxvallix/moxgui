@@ -1,0 +1,3 @@
+execute if data storage gui:slot {current:{item:{modifier:"gui:player_head"}}} run item modify entity 1674b3a8-0135-a32e-02a4-06fb01241978 weapon.mainhand gui:render/builtin/head
+execute if data storage gui:slot {current:{item:{modifier:"gui:name"}}} run item modify entity 1674b3a8-0135-a32e-02a4-06fb01241978 weapon.mainhand gui:render/builtin/name
+execute if data storage gui:slot {current:{item:{modifier:"gui:input/numeric"}}} run item modify entity 1674b3a8-0135-a32e-02a4-06fb01241978 weapon.mainhand gui:render/builtin/input/numeric

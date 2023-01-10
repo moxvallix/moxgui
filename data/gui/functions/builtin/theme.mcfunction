@@ -1,0 +1,1 @@
+execute if data storage gui:page {flags:{theme:"gui:standard"}} run function gui:builtin/themes/standard

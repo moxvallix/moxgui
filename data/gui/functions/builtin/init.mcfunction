@@ -1,0 +1,1 @@
+data modify storage gui:page flags merge value {state:{},theme:"gui:standard"}

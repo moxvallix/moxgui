@@ -1,3 +1,5 @@
+data modify storage gui:private inventory set from block ~ ~ ~ Items
+function gui:select/get/snapshot
 scoreboard players set @s gui.selection -1
 execute unless data block ~ ~ ~ Items[{Slot:0b}] unless data storage gui:page template[{slot:0b,empty:true}] run scoreboard players set @s gui.selection 0
 execute unless data block ~ ~ ~ Items[{Slot:1b}] unless data storage gui:page template[{slot:1b,empty:true}] run scoreboard players set @s gui.selection 1

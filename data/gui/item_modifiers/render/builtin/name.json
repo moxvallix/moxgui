@@ -1,0 +1,9 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "nbt": "current.name",
+    "storage": "gui:slot",
+    "italic": false
+  }
+}

@@ -1,0 +1,1 @@
+data remove storage gui:page state.input[-1]

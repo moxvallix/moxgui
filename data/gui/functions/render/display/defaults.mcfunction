@@ -1,0 +1,2 @@
+execute unless data storage gui:slot current.item.Count run data modify storage gui:slot current.item.Count set value 1b
+execute unless data storage gui:slot current.item.id run data modify storage gui:slot current.item.id set from storage gui:config default_item
